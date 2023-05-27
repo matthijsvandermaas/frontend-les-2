@@ -95,12 +95,24 @@ header .header-container p {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     padding: 10px;
-    margin-right: -10px;
+    margin-right: -6px;
+    background-color: transparent;
+    border: 2px solid #1C2B32;
 }
 
 .check::placeholder {
     background-color: transparent;
-    color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.check:hover {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+
 }
 
 .check-button {
@@ -217,6 +229,31 @@ button.contact > a {
     border-radius: 30px;
     text-decoration: none;
 
+}
+.quote-icon {
+    float: left;
+    margin-right: 10px; /* Aanpassen naar de gewenste marge */
+    width: 20px; /* Aanpassen naar de gewenste breedte */
+    height: auto;
+    vertical-align: baseline;
+}
+.check-button {
+    background-color: #1C2B32;
+    color: #fff;
+    transition: background-color, color 1s;
+
+}
+
+.check-button:hover {
+    background-color: transparent;
+    color: #1C2B32;
+}
+
+.check-button:focus,
+.check-button:active {
+    background-color: transparent;
+    transition: none;
+    color: #1C2B32;
 }
 
 /*///////////// 3.5 Footer /////////////*/
